@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: TypeError
+  is_correct: true
+- text: IndexError
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |
+    int_ = 5
+    str_ = 'Hello, World'
+
+    ...
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

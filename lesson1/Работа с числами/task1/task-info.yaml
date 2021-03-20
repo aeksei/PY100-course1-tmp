@@ -1,0 +1,22 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  text: |
+    length = ...
+    width = ...
+
+    perimeter = ...
+
+    print()
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    75
+  learner_created: false
+status: Unchecked
+record: -1
