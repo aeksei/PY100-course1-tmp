@@ -1,13 +1,17 @@
 type: output
 files:
-- name: main.py
-  visible: true
-  learner_created: false
 - name: __init__.py
   visible: false
   learner_created: false
 - name: tests/output.txt
   visible: false
   learner_created: false
-status: Unchecked
+- name: main.py
+  visible: true
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 26 Mar 2021 13:42:57 UTC
+  actual: <no output>
 record: -1
